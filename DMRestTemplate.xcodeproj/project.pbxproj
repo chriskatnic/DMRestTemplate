@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		834A974C1C48182100FB27C2 /* NexLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 834A974B1C48182100FB27C2 /* NexLogo.png */; };
 		83746BD11C46C9CC005BF6BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83746BD01C46C9CC005BF6BA /* AppDelegate.swift */; };
 		83746BD31C46C9CC005BF6BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83746BD21C46C9CC005BF6BA /* ViewController.swift */; };
 		83746BD61C46C9CC005BF6BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83746BD41C46C9CC005BF6BA /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		834A974B1C48182100FB27C2 /* NexLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NexLogo.png; sourceTree = "<group>"; };
 		83746BCD1C46C9CC005BF6BA /* DMRestTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMRestTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83746BD01C46C9CC005BF6BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83746BD21C46C9CC005BF6BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		83746BCF1C46C9CC005BF6BA /* DMRestTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				834A974B1C48182100FB27C2 /* NexLogo.png */,
 				83746BD01C46C9CC005BF6BA /* AppDelegate.swift */,
 				83746BD21C46C9CC005BF6BA /* ViewController.swift */,
 				83746BD41C46C9CC005BF6BA /* Main.storyboard */,
@@ -231,6 +234,7 @@
 			files = (
 				83746BDB1C46C9CC005BF6BA /* LaunchScreen.storyboard in Resources */,
 				83746BD81C46C9CC005BF6BA /* Assets.xcassets in Resources */,
+				834A974C1C48182100FB27C2 /* NexLogo.png in Resources */,
 				83746BD61C46C9CC005BF6BA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +486,7 @@
 				83746BF71C46C9CD005BF6BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83746BF81C46C9CD005BF6BA /* Build configuration list for PBXNativeTarget "DMRestTemplateTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				83746BFA1C46C9CD005BF6BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83746BFB1C46C9CD005BF6BA /* Build configuration list for PBXNativeTarget "DMRestTemplateUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				83746BFD1C46C9CD005BF6BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
